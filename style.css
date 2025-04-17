@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.topback {
+  border: 1px solid rgb(115, 255, 0);
+  background: #f1f1f1;
+  height: 50px;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content {
+  border: 1px solid rgb(255, 251, 0);
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+.leftPanel {
+  background: #eaeaea;
+  width: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.userList,
+.messageList {
+  display: flex;
+  flex-direction: column;
+}
+.rightPanel {
+  flex: 1;
+  border: 1px solid rgb(241, 4, 162);
+  background: #ffffff;
+  overflow-y: auto;
+  padding: 5px 10px;
+  justify-content: flex-start;
+}
+.footer {
+  border: 1px solid rgb(150, 123, 74);
+  background: #f1f1f1;
+  height: 100px;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
